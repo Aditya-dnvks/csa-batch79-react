@@ -1,13 +1,16 @@
 import { useContext } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../auth/auth";
 import { enqueueSnackbar } from "notistack";
 
 function Header() {
   const { isLogin, setLogin, cartData } = useContext(AuthContext);
+  const navigate = useNavigate();
 
   const handleLogout = () => {
     setLogin(false);
+    localStorage.setItem("isLogin", JSON.stringify(false));
+    navigate("/");
     enqueueSnackbar("Logout done successfully", { variant: "info" });
   };
 

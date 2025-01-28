@@ -7,6 +7,7 @@ import MediDetails from "./components/details-page/DetilsPage";
 import { useContext } from "react";
 import { AuthContext } from "./components/auth/auth";
 import Cart from "./components/cart/cart";
+import Counter from "./components/Counter";
 
 function App() {
   const { isLogin } = useContext(AuthContext);
@@ -18,6 +19,7 @@ function App() {
         {!isLogin && <Route path="/register" element={<Register />} />}
         <Route path="/item-details/:id" element={<MediDetails />} />
         <Route path="/cart" element={<Cart />} />
+        <Route path="/counter" element={<Counter />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>

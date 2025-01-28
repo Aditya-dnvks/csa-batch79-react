@@ -3,6 +3,7 @@ import { useContext } from "react";
 import { AuthContext } from "../auth/auth";
 import DeleteIcon from "@mui/icons-material/Delete";
 import { useNavigate } from "react-router-dom";
+
 const Cart = () => {
   const { cartData, setCartData } = useContext(AuthContext);
   const navigation = useNavigate();
