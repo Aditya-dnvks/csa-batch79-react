@@ -9,12 +9,13 @@ import { AuthContext } from "./components/auth/auth";
 import Cart from "./components/cart/cart";
 
 function App() {
+  const { isLogin } = useContext(AuthContext);
   return (
     <>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/register" element={<Register />} />
+        {!isLogin && <Route path="/register" element={<Register />} />}
         <Route path="/item-details/:id" element={<MediDetails />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="*" element={<NotFound />} />
