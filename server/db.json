@@ -1,0 +1,373 @@
+{
+  "medicalProducts": [
+    {
+      "id": 1,
+      "title": "PUDIN HARA CAPSULE 10'S",
+      "price": 30,
+      "originalPrice": 30,
+      "seller": "By DABUR INDIA LIMITED",
+      "description": "Effective herbal remedy for stomach ailments.",
+      "category": "Herbal Medicine",
+      "image": "https://d1s24u4ln0wd0i.cloudfront.net/med/10866/pudin-hara-capsule-10s_1727026810cfb959fb098b426b98ac3264cfb45d0e.webp",
+      "rating": {
+        "rate": 4.0,
+        "count": 120
+      }
+    },
+    {
+      "id": 2,
+      "title": "ROMSON PREMIUM 3PLY FACEMASK",
+      "price": 8,
+      "originalPrice": 10,
+      "discount" : "20% off",
+      "seller": "By ROMSON",
+      "description": "Premium quality 3-ply facemask for enhanced protection.",
+      "category": "Protective Gear",
+      "image": "https://d1s24u4ln0wd0i.cloudfront.net/med/16606/romson-premium-3ply-facemask_17347767309379becaa296464e88c85f6f9f4d8710.webp",
+      "rating": {
+        "rate": 4.7,
+        "count": 200
+      }
+    },
+    {
+      "id": 3,
+      "title": "SUDARSHAN GHANVATI (ZANDU) TABLET 40'S",
+      "price": 117,
+      "originalPrice": 130,
+      "discount" : "10% off",
+      "seller": "By EMAMI LIMITED (ZANDU)",
+      "description": "Ayurvedic tablets for holistic health support.",
+      "category": "Herbal Medicine",
+      "image": "https://d1s24u4ln0wd0i.cloudfront.net/15482_1",
+      "rating": {
+        "rate": 4.3,
+        "count": 150
+      }
+    },
+    {
+      "id": 4,
+      "title": "SUGAR FREE KALOREE TABLET 400's",
+      "price": 270,
+      "originalPrice": 300,
+      "discount" : "10% off",
+      "seller": "By MANKIND PHARMA LIMITED",
+      "description": "Sugar substitute tablets for calorie-conscious individuals.",
+      "category": "Dietary Supplement",
+      "image": "https://d1s24u4ln0wd0i.cloudfront.net/med/12631/sugar-free-kaloree-tablet-400s_1727026264f208006682be48859a65d3f4d60e450b.webp",
+      "rating": {
+        "rate": 4.2,
+        "count": 95
+      }
+    },
+    {
+      "id": 5,
+      "title": "VICKS VAPORUB 50 ML",
+      "price": 199,
+      "originalPrice": 199,
+      "seller": "By DABUR INDIA LIMITED",
+      "description": "Classic vaporub for relief from cold and congestion.",
+      "category": "Medicinal Ointment",
+      "image": "https://d1s24u4ln0wd0i.cloudfront.net/14460_2",
+      "rating": {
+        "rate": 4.8,
+        "count": 500
+      }
+    },
+    {
+      "id": 6,
+      "title": "VICO PLUS (VEPON) 25 ML",
+      "price": 47.5,
+      "originalPrice": 80,
+      "discount" : "41% off",
+      "seller": "By PROCTER AND GAMBLE HYGIENE AND HEALTH CARE LIMITED",
+      "description": "Effective pain-relieving ointment.",
+      "category": "Pain Relief",
+      "image": "https://d1s24u4ln0wd0i.cloudfront.net/14461_1",
+      "rating": {
+        "rate": 4.5,
+        "count": 180
+      }
+    },
+    {
+      "id": 7,
+      "title": "VOLICOR ULTRA GEL 30 GM",
+      "price": 30,
+      "originalPrice": 85,
+      "discount" : "65% off",
+      "seller": "By CORONA REMEDIES PRIVATE LIMITED",
+      "description": "Ultra gel for effective pain relief.",
+      "category": "Pain Relief",
+      "image": "https://d1s24u4ln0wd0i.cloudfront.net/14687_1",
+      "rating": {
+        "rate": 4.3,
+        "count": 75
+      }
+    },
+    {
+      "id": 8,
+      "title": "ZYMO MOISTURING COLD CREAM 200 GM",
+      "price": 120,
+      "originalPrice": 150,
+      "discount" : "20% off",
+      "seller": "By ZYMO COSMETICS",
+      "description": "Moisturizing cream for soft and smooth skin.",
+      "category": "Skin Care",
+      "image": "https://d1s24u4ln0wd0i.cloudfront.net/med/15436/zymo-moisturing-cold-cream-200-gm_172943012501eb7c99ce1c4f4195d4f056f606ea84.webp",
+      "rating": {
+        "rate": 4.6,
+        "count": 250
+      }
+    },
+    {
+      "id": 9,
+      "title": "HIMALAYA ASHVAGANDHA TAB 1X60",
+      "price": 204,
+      "originalPrice": 240,
+      "discount" : "15% off",
+      "seller": "By HIMALAYA WELLNESS COMPANY",
+      "description": "Ashwagandha tablets for stress relief and vitality.",
+      "category": "Herbal Medicine",
+      "image": "https://d1s24u4ln0wd0i.cloudfront.net/894_3",
+      "rating": {
+        "rate": 4.4,
+        "count": 140
+      }
+    },
+    {
+      "id": 10,
+      "title": "BABY DIAPER LARGE (KANGAROO)",
+      "price": 60,
+      "originalPrice": 60,
+      "seller": "By KANGAROO HEALTH CARE",
+      "description": "Large-sized diapers for babies, offering comfort and dryness.",
+      "category": "Baby Care",
+      "image": "https://d1s24u4ln0wd0i.cloudfront.net/1238_2",
+      "rating": {
+        "rate": 4.7,
+        "count": 300
+      }
+    },
+    {
+      "id": 11,
+      "title": "BABY DIAPER MEDIUM (KANGAROO)",
+      "price": 50,
+      "originalPrice": 50,
+      "seller": "By KANGAROO HEALTH CARE",
+      "description": "Comfortable baby diapers for medium-sized babies.",
+      "category": "Baby Care",
+      "image": "https://d1s24u4ln0wd0i.cloudfront.net/1239_2",
+      "rating": {
+        "rate": 4.2,
+        "count": 120
+      }
+    },
+    {
+      "id": 12,
+      "title": "BANDAID",
+      "price": 2.4,
+      "originalPrice": 2.4,
+      "seller": "By Johnson & Johnson",
+      "description": "Washproof bandaid for minor cuts and wounds.",
+      "category": "First Aid",
+      "image": "https://d1s24u4ln0wd0i.cloudfront.net/1267_2",
+      "rating": {
+        "rate": 4.5,
+        "count": 200
+      }
+    },
+    {
+      "id": 13,
+      "title": "BANDAGE WASHPROOF",
+      "price": 3,
+      "originalPrice": 3,
+      "seller": "By Johnson & Johnson",
+      "description": "Washproof bandage for enhanced protection against moisture.",
+      "category": "First Aid",
+      "image": "https://d1s24u4ln0wd0i.cloudfront.net/1269_1",
+      "rating": {
+        "rate": 4.4,
+        "count": 150
+      }
+    },
+    {
+      "id": 14,
+      "title": "CLOCAMIN DUSTING POWDER 125 GM",
+      "price": 70,
+      "originalPrice": 125,
+      "discount" : "44% off",
+      "seller": "By SKOTT PHARMA",
+      "description": "Effective dusting powder for skin irritation relief.",
+      "category": "Skin Care",
+      "image": "https://d1s24u4ln0wd0i.cloudfront.net/16040_2",
+      "rating": {
+        "rate": 4.6,
+        "count": 180
+      }
+    },
+    {
+      "id": 15,
+      "title": "DIGENE (ORANGE) TABLET 15'S",
+      "price": 26.28,
+      "originalPrice": 29.2,
+      "discount" : "10% off",
+      "seller": "By ABBOTT HEALTH CARE PRIVATE LIMITED",
+      "description": "Digestive tablets for relief from acidity and heartburn.",
+      "category": "Digestive Care",
+      "image": "https://d1s24u4ln0wd0i.cloudfront.net/3467_1",
+      "rating": {
+        "rate": 4.7,
+        "count": 240
+      }
+    },
+    {
+      "id": 16,
+      "title": "DIGENE MINT TABLET 15'S",
+      "price": 26.28,
+      "originalPrice": 29.2,
+      "discount" : "10% off",
+      "seller": "By ABBOTT HEALTH CARE PRIVATE LIMITED",
+      "description": "Mint-flavored digestive tablets for acidity and gas relief.",
+      "category": "Digestive Care",
+      "image": "https://d1s24u4ln0wd0i.cloudfront.net/3464_1",
+      "rating": {
+        "rate": 4.5,
+        "count": 190
+      }
+    },
+    {
+      "id": 17,
+      "title": "ELECTRAL POWDER 22 GM",
+      "price": 20.39,
+      "originalPrice": 22.66,
+      "discount" : "10% off",
+      "seller": "By F D C INDIA LIMITED",
+      "description": "Rehydration powder for electrolyte balance and dehydration relief.",
+      "category": "Oral Rehydration",
+      "image": "https://d1s24u4ln0wd0i.cloudfront.net/3998_3",
+      "rating": {
+        "rate": 4.8,
+        "count": 300
+      }
+    },
+    {
+      "id": 18,
+      "title": "PAN D CAPSULE 15'S",
+      "price": 196.35,
+      "originalPrice": 231,
+      "discount" : "15% off",
+      "seller": "By ALKEM LABORATORIES LIMITED",
+      "description": "Combination medication used in the treatment of gastrointestinal disorders",
+      "category": "Digestive Care",
+      "image": "https://d1s24u4ln0wd0i.cloudfront.net/10131_1",
+      "rating": {
+        "rate": 4.6,
+        "count": 220
+      }
+    },
+    {
+      "id": 19,
+      "title": "JAKHME RUZ 20 GM",
+      "price": 54,
+      "originalPrice": 60,
+      "discount" : "10% off",
+      "seller": "By BHAWSAR CHEMICALS PRIVATE LIMITED",
+      "description": "Herbal cream for skin protection and healing.",
+      "category": "Skin Care",
+      "image": "https://d1s24u4ln0wd0i.cloudfront.net/6645_2",
+      "rating": {
+        "rate": 4.3,
+        "count": 140
+      }
+    },
+    {
+      "id": 20,
+      "title": "KETOSCALP SHAMPOO 100 ML",
+      "price": 117,
+      "originalPrice": 225,
+      "discount" : "48% off",
+      "seller": "By LEEFORD HEALTHCARE LIMITED",
+      "description": "Medicated shampoo for dandruff and scalp care.",
+      "category": "Hair Care",
+      "image": "https://d1s24u4ln0wd0i.cloudfront.net/6800_2",
+      "rating": {
+        "rate": 4.5,
+        "count": 200
+      }
+    },
+    {
+      "id": 21,
+      "title": "KOFLET LOZENGES TABLET 10'S",
+      "price": 22.5,
+      "originalPrice": 25,
+      "discount": "10% off",
+      "seller": "By HIMALAYA WELLNESS COMPANY",
+      "description": "Lozenges to provide relief from throat irritation and cough.",
+      "category": "Cough & Cold",
+      "image": "https://d1s24u4ln0wd0i.cloudfront.net/6840_4",
+      "rating": {
+        "rate": 4.7,
+        "count": 180
+      }
+    },
+    {
+      "id": 22,
+      "title": "KUSHAL KANTHIL 5GM TABLET 100'S",
+      "price": 59.5,
+      "originalPrice": 70,
+      "discount": "15% off",
+      "seller": "By KUSHAL AYURVEDIC PHARMACY",
+      "description": "Ayurvedic tablets for oral freshness and throat care.",
+      "category": "Cough & Cold",
+      "image": "https://d1s24u4ln0wd0i.cloudfront.net/6733_2",
+      "rating": {
+        "rate": 4.4,
+        "count": 160
+      }
+    },
+    {
+      "id": 23,
+      "title": "ORS POWDER 21.0 GM",
+      "price": 13,
+      "originalPrice": 25.2,
+      "discount": "48% off",
+      "seller": "By CIPLA PHARMACEUTICAL COMPANY LIMITED",
+      "description": "Oral rehydration salt powder for dehydration relief.",
+      "category": "Oral Rehydration",
+      "image": "https://d1s24u4ln0wd0i.cloudfront.net/9948_1",
+      "rating": {
+        "rate": 4.8,
+        "count": 300
+      }
+    },
+    {
+      "id": 24,
+      "title": "OXYNASOCAN NASAL SPRAY 10 ML",
+      "price": 42,
+      "originalPrice": 75,
+      "discount": "44% off",
+      "seller": "By LEEFORD HEALTHCARE LIMITED",
+      "description": "Effective nasal spray for congestion relief.",
+      "category": "Respiratory Care",
+      "image": "https://d1s24u4ln0wd0i.cloudfront.net/10087_3",
+      "rating": {
+        "rate": 4.6,
+        "count": 200
+      }
+    },
+    {
+      "id": 25,
+      "title": "TIGER CUB FLYING BALM 15 GM",
+      "price": 76,
+      "originalPrice": 80,
+      "discount": "5% off",
+      "seller": "By RANGOON CHAMICAL WROKS PVT LTD",
+      "description": "Balmy ointment for muscle pain relief.",
+      "category": "Pain Relief",
+      "image": "https://d1s24u4ln0wd0i.cloudfront.net/167481488963d3a5a9c3ece.png",
+      "rating": {
+        "rate": 4.5,
+        "count": 150
+      }
+    }
+  ]
+}
