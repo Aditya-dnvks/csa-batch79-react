@@ -5,7 +5,6 @@ import { AuthContext } from "../auth/auth";
 import axios from "axios";
 import MediCard from "../card/MediCard";
 import { Box, TextField } from "@mui/material";
-// import { Box, TextField } from "@radix-ui/themes";
 
 function Home() {
   const { isLogin } = useContext(AuthContext);

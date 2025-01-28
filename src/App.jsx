@@ -9,7 +9,6 @@ import { AuthContext } from "./components/auth/auth";
 import Cart from "./components/cart/cart";
 
 function App() {
-  const { isLogin } = useContext(AuthContext);
   return (
     <>
       <Header />
