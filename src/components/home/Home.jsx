@@ -17,7 +17,7 @@ function Home() {
       try {
         setLoader(true);
         const response = await axios.get(
-          "http://localhost:3000/medicalProducts"
+          "https://csa-batch79-react.onrender.com/medicalProducts"
         );
         setData(response.data);
       } catch (err) {
