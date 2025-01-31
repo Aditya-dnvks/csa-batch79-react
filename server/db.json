@@ -9865,7 +9865,7 @@
     {
       "id": "1",
       "name": "Chinese Wok",
-      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/12/24/15345730-3e92-4301-8bf8-d3d327d96ce2_1013619.jpg",
+      "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_150/RX_THUMBNAIL/IMAGES/VENDOR/2024/12/24/15345730-3e92-4301-8bf8-d3d327d96ce2_1013619.jpg",
       "locality": "Koramangala",
       "costForTwo": "₹250 for two",
       "cuisines": ["Chinese", "Asian", "Tibetan", "Desserts"],
@@ -9874,7 +9874,7 @@
     {
       "id": "2",
       "name": "Pizza Hut",
-      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/7/16/87e56c63-b521-4257-96ae-a42229b92009_10576.jpg",
+      "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_150/RX_THUMBNAIL/IMAGES/VENDOR/2024/7/16/87e56c63-b521-4257-96ae-a42229b92009_10576.jpg",
       "locality": "6th Block",
       "areaName": "Koramangala",
       "costForTwo": "₹350 for two",
@@ -9884,7 +9884,7 @@
     {
       "id": "3",
       "name": "Burger King",
-      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/11/7f76a072-c1bc-4d74-ac56-33e0eea20c1e_5934.JPG",
+      "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_150/RX_THUMBNAIL/IMAGES/VENDOR/2024/6/11/7f76a072-c1bc-4d74-ac56-33e0eea20c1e_5934.JPG",
       "locality": "Koramangala",
       "areaName": "Koramangala",
       "costForTwo": "₹350 for two",
@@ -9894,7 +9894,7 @@
     {
       "id": "4",
       "name": "Meghana Foods",
-      "cloudinaryImageId": "xqwpuhgnsaf18te7zvtv",
+      "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_150/RX_THUMBNAIL/IMAGES/VENDOR/2024/11/14/33bfb682-d5fa-4054-9e2c-31911e34ebf6_65797.jpg",
       "locality": "Koramangala",
       "areaName": "Koramangala",
       "costForTwo": "₹500 for two",
@@ -9904,7 +9904,7 @@
     {
       "id": "5",
       "name": "Leon's - Burgers & Wings (Leon Grill)",
-      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/11/14/33bfb682-d5fa-4054-9e2c-31911e34ebf6_65797.jpg",
+      "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_150/RX_THUMBNAIL/IMAGES/VENDOR/2024/11/14/33bfb682-d5fa-4054-9e2c-31911e34ebf6_65797.jpg",
       "locality": "Koramangala",
       "areaName": "Koramangala",
       "costForTwo": "₹300 for two",
@@ -9920,7 +9920,7 @@
     {
       "id": "6",
       "name": "Thalairaj Biryani",
-      "cloudinaryImageId": "g5sfrpdo2x8pjhpk36xm",
+      "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_150/g5sfrpdo2x8pjhpk36xm",
       "locality": "2nd stage",
       "areaName": "Indiranagar",
       "costForTwo": "₹300 for two",
@@ -9939,7 +9939,7 @@
     {
       "id": "7",
       "name": "Olio - The Wood Fired Pizzeria",
-      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/1/26/e35f38cf-8697-46f3-9d5d-cf80c6493833_596949.jpg",
+      "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_150/RX_THUMBNAIL/IMAGES/VENDOR/2025/1/26/e35f38cf-8697-46f3-9d5d-cf80c6493833_596949.jpg",
       "locality": "Koramangala",
       "areaName": "Koramangala",
       "costForTwo": "₹300 for two",
@@ -9957,7 +9957,7 @@
     {
       "id": "8",
       "name": "Goila Butter Chicken",
-      "cloudinaryImageId": "5e19832da032dd69547565e27104706f",
+      "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_150/5e19832da032dd69547565e27104706f",
       "locality": "CLUB ROAD",
       "areaName": "Koramangala",
       "costForTwo": "₹600 for two",
@@ -9967,7 +9967,7 @@
     {
       "id": "10576",
       "name": "Pizza Hut",
-      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/7/16/87e56c63-b521-4257-96ae-a42229b92009_10576.jpg",
+      "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_150/RX_THUMBNAIL/IMAGES/VENDOR/2024/7/16/87e56c63-b521-4257-96ae-a42229b92009_10576.jpg",
       "areaName": "Koramangala",
       "costForTwo": "₹350 for two",
       "cuisines": ["Pizzas"],
@@ -9976,7 +9976,7 @@
     {
       "id": "5934",
       "name": "Burger King",
-      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/11/7f76a072-c1bc-4d74-ac56-33e0eea20c1e_5934.JPG",
+      "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_150/RX_THUMBNAIL/IMAGES/VENDOR/2024/6/11/7f76a072-c1bc-4d74-ac56-33e0eea20c1e_5934.JPG",
       "areaName": "Koramangala",
       "costForTwo": "₹350 for two",
       "cuisines": ["Burgers", "American"],
@@ -9985,7 +9985,7 @@
     {
       "id": "65797",
       "name": "Leon's - Burgers & Wings (Leon Grill)",
-      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/11/14/33bfb682-d5fa-4054-9e2c-31911e34ebf6_65797.jpg",
+      "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_150/RX_THUMBNAIL/IMAGES/VENDOR/2024/11/14/33bfb682-d5fa-4054-9e2c-31911e34ebf6_65797.jpg",
       "areaName": "Koramangala",
       "costForTwo": "₹300 for two",
       "cuisines": [
@@ -10000,7 +10000,7 @@
     {
       "id": "25620",
       "name": "KFC",
-      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/12/9/fc1726b6-290d-463d-9baa-d1c34c0542fc_25620.JPG",
+      "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_150/RX_THUMBNAIL/IMAGES/VENDOR/2024/12/9/fc1726b6-290d-463d-9baa-d1c34c0542fc_25620.JPG",
       "areaName": "Ejipura",
       "costForTwo": "₹400 for two",
       "cuisines": ["Burgers", "Fast Food", "Rolls & Wraps"],
@@ -10009,7 +10009,7 @@
     {
       "id": "430368",
       "name": "Kebapci",
-      "cloudinaryImageId": "82cee87165a12942080a2df5a3b46fb9",
+      "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_150/82cee87165a12942080a2df5a3b46fb9",
       "areaName": "Koramangala",
       "costForTwo": "₹600 for two",
       "cuisines": ["Turkish", "Middle Eastern", "Lebanese"],
@@ -10018,7 +10018,7 @@
     {
       "id": "643665",
       "name": "WeFit - Protein Bowls, Salads & Sandwiches",
-      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/1/21/1d7bd5cc-1ab3-4eb4-9978-4a316df2d992_643665.JPG",
+      "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_150/RX_THUMBNAIL/IMAGES/VENDOR/2025/1/21/1d7bd5cc-1ab3-4eb4-9978-4a316df2d992_643665.JPG",
       "areaName": "Ejipura",
       "costForTwo": "₹250 for two",
       "cuisines": ["Healthy Food", "Salads", "Keto", "Snacks"],
@@ -10027,7 +10027,7 @@
     {
       "id": "750225",
       "name": "Daily Kitchen - Homely Meals",
-      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/5/19/4ec6a5b6-7c8d-4e10-b8a3-317922e419da_750225.JPG",
+      "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_150/RX_THUMBNAIL/IMAGES/VENDOR/2024/5/19/4ec6a5b6-7c8d-4e10-b8a3-317922e419da_750225.JPG",
       "areaName": "Koramangala",
       "costForTwo": "₹250 for two",
       "cuisines": ["Home Food", "Indian", "North Indian", "Thalis"],
@@ -10036,7 +10036,7 @@
     {
       "id": "681439",
       "name": "LeanCrust Pizza- ThinCrust Experts",
-      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/8/30/02dd8027-a849-4cc5-9411-ea8e8cc767f9_681439.jpg",
+      "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_150/RX_THUMBNAIL/IMAGES/VENDOR/2024/8/30/02dd8027-a849-4cc5-9411-ea8e8cc767f9_681439.jpg",
       "areaName": "Koramangala",
       "costForTwo": "₹300 for two",
       "cuisines": ["Pizzas", "Italian", "Desserts"],
@@ -10045,7 +10045,7 @@
     {
       "id": "622030",
       "name": "MOJO Pizza - 2X Toppings",
-      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/12/12/aa5a8dc4-5b73-4dfc-86d6-edc0f1855f54_622030.jpg",
+      "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_150/RX_THUMBNAIL/IMAGES/VENDOR/2024/12/12/aa5a8dc4-5b73-4dfc-86d6-edc0f1855f54_622030.jpg",
       "areaName": "Koramangala",
       "costForTwo": "₹250 for two",
       "cuisines": ["Pizzas", "Italian", "Fast Food", "Desserts"],
@@ -10054,7 +10054,7 @@
     {
       "id": "711368",
       "name": "Salad Days",
-      "cloudinaryImageId": "cfa1123ebf17413dc7d0a80c7361fab3",
+      "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_150/cfa1123ebf17413dc7d0a80c7361fab3",
       "areaName": "HSR",
       "costForTwo": "₹500 for two",
       "cuisines": ["Salads"],
@@ -10063,7 +10063,7 @@
     {
       "id": "23678",
       "name": "McDonald's",
-      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/9/18/edc568f6-6813-4f2d-a670-911788f1f04f_23678.jpg",
+      "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_150/RX_THUMBNAIL/IMAGES/VENDOR/2024/9/18/edc568f6-6813-4f2d-a670-911788f1f04f_23678.jpg",
       "areaName": "Koramangala",
       "costForTwo": "₹400 for two",
       "cuisines": ["Burgers", "Beverages", "Cafe", "Desserts"],
@@ -10072,7 +10072,7 @@
     {
       "id": "534235",
       "name": "Cheesecake & Co.",
-      "cloudinaryImageId": "b318c0b4bc2169550145ace1d6e791a2",
+      "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_150/b318c0b4bc2169550145ace1d6e791a2",
       "areaName": "Koramangala",
       "costForTwo": "₹250 for two",
       "cuisines": ["Bakery"],
@@ -10081,7 +10081,7 @@
     {
       "id": "11211",
       "name": "Taco Bell",
-      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/12/4/95cca2be-d63c-4c0c-9014-10ecb27e31f6_11211.JPG",
+      "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_150/RX_THUMBNAIL/IMAGES/VENDOR/2024/12/4/95cca2be-d63c-4c0c-9014-10ecb27e31f6_11211.JPG",
       "areaName": "Koramangala",
       "costForTwo": "₹300 for two",
       "cuisines": ["Mexican", "Fast Food", "Snacks"],
@@ -10090,7 +10090,7 @@
     {
       "id": "524936",
       "name": "Theobroma",
-      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/1/2/ce02830e-e23e-4ce7-8e8b-490858d834bf_524936.jpg",
+      "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_150/RX_THUMBNAIL/IMAGES/VENDOR/2025/1/2/ce02830e-e23e-4ce7-8e8b-490858d834bf_524936.jpg",
       "areaName": "HSR Layout",
       "costForTwo": "₹400 for two",
       "cuisines": ["Desserts", "Bakery", "Beverages"],
@@ -10099,7 +10099,7 @@
     {
       "id": "255801",
       "name": "Great Indian Khichdi by EatFit",
-      "cloudinaryImageId": "6e44fd7f1e5cd9967edfe47c10247671",
+      "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_150/6e44fd7f1e5cd9967edfe47c10247671",
       "areaName": "Koramangala",
       "costForTwo": "₹200 for two",
       "cuisines": [
@@ -10119,7 +10119,7 @@
     {
       "id": "18973",
       "name": "Nandhana Palace",
-      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/11/21/c16228db-0f86-484e-b3b4-2fb707f22b76_18973.jpg",
+      "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_150/RX_THUMBNAIL/IMAGES/VENDOR/2024/11/21/c16228db-0f86-484e-b3b4-2fb707f22b76_18973.jpg",
       "areaName": "Koramangala",
       "costForTwo": "₹500 for two",
       "cuisines": ["Biryani", "Andhra", "South Indian", "North Indian"],
@@ -10128,7 +10128,7 @@
     {
       "id": "390057",
       "name": "NH1 Bowls - Highway To North",
-      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/11/8/b1e9f652-dc8d-4789-9710-6485ec06846e_390057.jpg",
+      "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_150/RX_THUMBNAIL/IMAGES/VENDOR/2024/11/8/b1e9f652-dc8d-4789-9710-6485ec06846e_390057.jpg",
       "areaName": "Koramangala",
       "costForTwo": "₹250 for two",
       "cuisines": ["North Indian", "Punjabi", "Home Food"],
@@ -10137,7 +10137,7 @@
     {
       "id": "391005",
       "name": "ZAZA Mughal Biryani",
-      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/9/17/d8552b11-ea4b-46e6-8b5c-287640b049cf_391005.jpg",
+      "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_150/RX_THUMBNAIL/IMAGES/VENDOR/2024/9/17/d8552b11-ea4b-46e6-8b5c-287640b049cf_391005.jpg",
       "areaName": "EJIPURA",
       "costForTwo": "₹250 for two",
       "cuisines": ["Biryani", "North Indian", "Awadhi"],
