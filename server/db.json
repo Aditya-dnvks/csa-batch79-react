@@ -1855,18 +1855,6 @@
           "durationInMs": 39133
         },
         {
-          "id": "06855f78-8096-4720-bfaf-d82dcf5a8154",
-          "title": "Near You",
-          "artists": ["Ruby Ullrich"],
-          "genre": {
-            "key": "pop",
-            "label": "Pop"
-          },
-          "likes": 32294,
-          "image": "https://images.pexels.com/photos/2124696/pexels-photo-2124696.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
-          "durationInMs": 40056
-        },
-        {
           "id": "2b551b2e-4521-4a56-9a38-86f3c11b167c",
           "title": "Mercy Mercy Me (The Ecology)",
           "artists": ["Miss Louise Bernier", "Rodolfo Raynor"],
@@ -2095,18 +2083,6 @@
           "durationInMs": 44939
         },
         {
-          "id": "013f666d-d68e-43db-9e9b-cc76eb007fef",
-          "title": "Gimme Some Lovin'",
-          "artists": ["Clyde Toy"],
-          "genre": {
-            "key": "blues",
-            "label": "Blues"
-          },
-          "likes": 33422,
-          "image": "https://images.pexels.com/photos/2879991/pexels-photo-2879991.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
-          "durationInMs": 33792
-        },
-        {
           "id": "66641900-cc01-499d-8317-870ce3a831a1",
           "title": "Tom Dooley",
           "artists": ["Fred King"],
@@ -2219,22 +2195,6 @@
           "likes": 56753,
           "image": "https://images.pexels.com/photos/313032/pexels-photo-313032.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
           "durationInMs": 27716
-        },
-        {
-          "id": "ed8c12ee-62b5-443f-933b-08d3933fc386",
-          "title": "Crazy For You",
-          "artists": [
-            "Jerome Donnelly",
-            "Miss Otis Gorczany DDS",
-            "Emilio Connelly"
-          ],
-          "genre": {
-            "key": "jazz",
-            "label": "Jazz"
-          },
-          "likes": 15659,
-          "image": "https://images.pexels.com/photos/905318/pexels-photo-905318.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
-          "durationInMs": 56575
         },
         {
           "id": "8a17050c-5187-41bc-ab28-5cd9b0d9e231",
@@ -2703,18 +2663,6 @@
           "durationInMs": 59547
         },
         {
-          "id": "cd0d4b03-ee67-4e64-afdd-c96193ce0255",
-          "title": "Crazy For You",
-          "artists": ["Vickie Metz", "Tricia Schroeder"],
-          "genre": {
-            "key": "jazz",
-            "label": "Jazz"
-          },
-          "likes": 42932,
-          "image": "https://images.pexels.com/photos/15501317/pexels-photo-15501317.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
-          "durationInMs": 32612
-        },
-        {
           "id": "6ec50a04-4f09-48db-82f4-54e334a75025",
           "title": "Dreams",
           "artists": ["Dana Ward"],
@@ -2737,18 +2685,6 @@
           "likes": 91913,
           "image": "https://images.pexels.com/photos/1643113/pexels-photo-1643113.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
           "durationInMs": 56327
-        },
-        {
-          "id": "cdffeb8d-cb2b-44cb-85e7-efe48c54e307",
-          "title": "We Built This City",
-          "artists": ["Velma Auer", "Dustin Upton", "Phyllis Donnelly"],
-          "genre": {
-            "key": "rock",
-            "label": "Rock"
-          },
-          "likes": 25417,
-          "image": "https://images.pexels.com/photos/8797307/pexels-photo-8797307.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
-          "durationInMs": 49990
         },
         {
           "id": "812e20e9-633d-43a1-85d2-6e3e5d5fdaba",
@@ -2845,22 +2781,6 @@
           "likes": 12664,
           "image": "https://images.pexels.com/photos/4072840/pexels-photo-4072840.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
           "durationInMs": 29445
-        },
-        {
-          "id": "b3f4ead3-3df4-46c6-a8bc-aeef9cb610ba",
-          "title": "Yeah!",
-          "artists": [
-            "Marvin Cronin",
-            "Dominick Bruen Jr.",
-            "Joanna O'Connell"
-          ],
-          "genre": {
-            "key": "rock",
-            "label": "Rock"
-          },
-          "likes": 43598,
-          "image": "https://images.pexels.com/photos/733745/pexels-photo-733745.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
-          "durationInMs": 39571
         },
         {
           "id": "05f949a6-4adb-4033-8eae-cf30d8f36a8a",
@@ -3155,22 +3075,6 @@
           "likes": 15423,
           "image": "https://images.pexels.com/photos/8044178/pexels-photo-8044178.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
           "durationInMs": 33956
-        },
-        {
-          "id": "b3f4ead3-3df4-46c6-a8bc-aeef9cb610ba",
-          "title": "Yeah!",
-          "artists": [
-            "Marvin Cronin",
-            "Dominick Bruen Jr.",
-            "Joanna O'Connell"
-          ],
-          "genre": {
-            "key": "rock",
-            "label": "Rock"
-          },
-          "likes": 43598,
-          "image": "https://images.pexels.com/photos/733745/pexels-photo-733745.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
-          "durationInMs": 39571
         },
         {
           "id": "022a45f4-a717-4af9-a9c1-0e53499701d0",
@@ -3743,18 +3647,6 @@
           "durationInMs": 38859
         },
         {
-          "id": "013f666d-d68e-43db-9e9b-cc76eb007fef",
-          "title": "Gimme Some Lovin'",
-          "artists": ["Clyde Toy"],
-          "genre": {
-            "key": "blues",
-            "label": "Blues"
-          },
-          "likes": 33422,
-          "image": "https://images.pexels.com/photos/2879991/pexels-photo-2879991.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
-          "durationInMs": 33792
-        },
-        {
           "id": "e4ba2658-1f70-499d-801f-d5df41d3b30a",
           "title": "My Sweet Lord",
           "artists": ["Harry Champlin", "Santiago Ziemann"],
@@ -4137,18 +4029,6 @@
           "durationInMs": 43113
         },
         {
-          "id": "7839ce82-567f-4060-b351-b9c1081266fc",
-          "title": "The Sounds of Silence",
-          "artists": ["Garry Schultz", "Ricardo Kiehn"],
-          "genre": {
-            "key": "rock",
-            "label": "Rock"
-          },
-          "likes": 18599,
-          "image": "https://images.pexels.com/photos/10361600/pexels-photo-10361600.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
-          "durationInMs": 29270
-        },
-        {
           "id": "71259322-d88c-499d-b2d1-cb6545f782db",
           "title": "Happy Days Are Here Again",
           "artists": ["Trevor Price", "Bonnie Russel"],
@@ -4243,18 +4123,6 @@
           "likes": 41067,
           "image": "https://images.pexels.com/photos/3850526/pexels-photo-3850526.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
           "durationInMs": 52577
-        },
-        {
-          "id": "cdffeb8d-cb2b-44cb-85e7-efe48c54e307",
-          "title": "We Built This City",
-          "artists": ["Velma Auer", "Dustin Upton", "Phyllis Donnelly"],
-          "genre": {
-            "key": "rock",
-            "label": "Rock"
-          },
-          "likes": 25417,
-          "image": "https://images.pexels.com/photos/8797307/pexels-photo-8797307.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
-          "durationInMs": 49990
         },
         {
           "id": "bf5d78b3-7e3f-48b7-bf19-cbd3083f28e5",
@@ -4379,18 +4247,6 @@
           "likes": 96901,
           "image": "https://images.pexels.com/photos/1694900/pexels-photo-1694900.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
           "durationInMs": 49689
-        },
-        {
-          "id": "7839ce82-567f-4060-b351-b9c1081266fc",
-          "title": "The Sounds of Silence",
-          "artists": ["Garry Schultz", "Ricardo Kiehn"],
-          "genre": {
-            "key": "rock",
-            "label": "Rock"
-          },
-          "likes": 18599,
-          "image": "https://images.pexels.com/photos/10361600/pexels-photo-10361600.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
-          "durationInMs": 29270
         },
         {
           "id": "08401ecb-09fc-49e4-8c40-5728abe623cc",
@@ -4755,18 +4611,6 @@
           "durationInMs": 47739
         },
         {
-          "id": "b7fc4dba-96d1-4d48-a565-6ae32569c639",
-          "title": "More Than Words",
-          "artists": ["Faith Krajcik", "Karen Yundt III"],
-          "genre": {
-            "key": "rock",
-            "label": "Rock"
-          },
-          "likes": 47639,
-          "image": "https://images.pexels.com/photos/4319752/pexels-photo-4319752.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
-          "durationInMs": 30288
-        },
-        {
           "id": "3621d516-9303-49f0-a55a-5857ca7a6ac8",
           "title": "Get Down Tonight",
           "artists": ["Jody Farrell"],
@@ -5093,18 +4937,6 @@
           "durationInMs": 47337
         },
         {
-          "id": "cd0d4b03-ee67-4e64-afdd-c96193ce0255",
-          "title": "Crazy For You",
-          "artists": ["Vickie Metz", "Tricia Schroeder"],
-          "genre": {
-            "key": "jazz",
-            "label": "Jazz"
-          },
-          "likes": 42932,
-          "image": "https://images.pexels.com/photos/15501317/pexels-photo-15501317.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
-          "durationInMs": 32612
-        },
-        {
           "id": "4f242bb8-4d00-4dce-9c77-110b616d1760",
           "title": "People",
           "artists": ["Mrs. Elijah Christiansen", "Mrs. Felicia Hagenes"],
@@ -5263,18 +5095,6 @@
           "likes": 40847,
           "image": "https://images.pexels.com/photos/1671325/pexels-photo-1671325.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
           "durationInMs": 28987
-        },
-        {
-          "id": "cd0d4b03-ee67-4e64-afdd-c96193ce0255",
-          "title": "Crazy For You",
-          "artists": ["Vickie Metz", "Tricia Schroeder"],
-          "genre": {
-            "key": "jazz",
-            "label": "Jazz"
-          },
-          "likes": 42932,
-          "image": "https://images.pexels.com/photos/15501317/pexels-photo-15501317.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
-          "durationInMs": 32612
         },
         {
           "id": "4a7aa386-63aa-468f-a7ee-7cf382cb81fa",
@@ -5491,18 +5311,6 @@
       "slug": "nutritious-major",
       "songs": [
         {
-          "id": "cdffeb8d-cb2b-44cb-85e7-efe48c54e307",
-          "title": "We Built This City",
-          "artists": ["Velma Auer", "Dustin Upton", "Phyllis Donnelly"],
-          "genre": {
-            "key": "rock",
-            "label": "Rock"
-          },
-          "likes": 25417,
-          "image": "https://images.pexels.com/photos/8797307/pexels-photo-8797307.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
-          "durationInMs": 49990
-        },
-        {
           "id": "9a40b9c4-d1ce-4a2c-8bad-3d9e60aa54b1",
           "title": "Queen of Hearts",
           "artists": ["April Pollich III"],
@@ -5613,18 +5421,6 @@
           "likes": 23856,
           "image": "https://images.pexels.com/photos/1314186/pexels-photo-1314186.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
           "durationInMs": 27771
-        },
-        {
-          "id": "cdffeb8d-cb2b-44cb-85e7-efe48c54e307",
-          "title": "We Built This City",
-          "artists": ["Velma Auer", "Dustin Upton", "Phyllis Donnelly"],
-          "genre": {
-            "key": "rock",
-            "label": "Rock"
-          },
-          "likes": 25417,
-          "image": "https://images.pexels.com/photos/8797307/pexels-photo-8797307.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
-          "durationInMs": 49990
         },
         {
           "id": "7a2bdab4-684e-438f-93d0-1de43309b94f",
