@@ -8,6 +8,7 @@ import { useContext } from "react";
 import { AuthContext } from "./components/auth/auth";
 import Cart from "./components/cart/cart";
 import Counter from "./components/Counter";
+import Login from "./components/login/Login";
 
 function App() {
   const { isLogin } = useContext(AuthContext);
@@ -15,11 +16,20 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
-        {!isLogin && <Route path="/register" element={<Register />} />}
-        <Route path="/item-details/:id" element={<MediDetails />} />
-        <Route path="/cart" element={<Cart />} />
-        <Route path="/counter" element={<Counter />} />
+        {isLogin ? (
+          <>
+            <Route path="/" element={<Home />} />
+            <Route path="/item-details/:id" element={<MediDetails />} />
+            <Route path="/cart" element={<Cart />} />
+            <Route path="/counter" element={<Counter />} />
+          </>
+        ) : (
+          <>
+            <Route path="/login" element={<Login />} />
+            <Route path="/register" element={<Register />} />
+          </>
+        )}
+
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>

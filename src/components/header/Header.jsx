@@ -10,7 +10,7 @@ function Header() {
   const handleLogout = () => {
     setLogin(false);
     localStorage.setItem("isLogin", JSON.stringify(false));
-    navigate("/");
+    navigate("/login");
     enqueueSnackbar("Logout done successfully", { variant: "info" });
   };
 

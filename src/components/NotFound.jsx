@@ -1,4 +1,15 @@
+import { useContext, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+import { AuthContext } from "./auth/auth";
+
 function NotFound() {
+  const { isLogin } = useContext(AuthContext);
+  const navigate = useNavigate();
+  useEffect(() => {
+    if (!isLogin) {
+      navigate("/login");
+    }
+  }, []);
   return (
     <div className="bg-info rounded">
       <img

@@ -1,7 +1,7 @@
 import { Button } from "@radix-ui/themes";
 import { useContext, useState } from "react";
 import { enqueueSnackbar } from "notistack";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../auth/auth";
 
 const Login = () => {
@@ -9,6 +9,8 @@ const Login = () => {
     email: "",
     password: "",
   });
+
+  const navigate = useNavigate();
 
   const handleChange = (event) => {
     setFormData({ ...formData, [event.target.name]: event.target.value });
@@ -50,12 +52,14 @@ const Login = () => {
     localStorage.setItem("isLogin", JSON.stringify(true));
     setLogin(true);
 
+    navigate("/");
+
     enqueueSnackbar("Login completed successfully", {
       variant: "success",
     });
   };
   return (
-    <>
+    <div className="flex justify-around items-center min-h-[90vh]">
       <img
         className="w-1/2"
         src="https://mediassisttpa.in/_nuxt/img/cashless-everywhere.0723af3.png"
@@ -103,7 +107,7 @@ const Login = () => {
           </span>
         </p>
       </form>
-    </>
+    </div>
   );
 };
 

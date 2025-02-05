@@ -2,6 +2,7 @@ import { Button } from "@radix-ui/themes";
 import { useContext, useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { AuthContext } from "../auth/auth";
+import Home, { name, age } from "../home/Home";
 
 const MediCard = ({ item }) => {
   const { cartData, setCartData } = useContext(AuthContext);
