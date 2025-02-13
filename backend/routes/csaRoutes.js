@@ -8,6 +8,8 @@ const {
 } = require("../controllers/csaControllers");
 const router = express.Router();
 
+//middleware
+
 router.get("/", getData); //csa
 
 router.get("/:id", getDataById); //csa/:id

@@ -3,6 +3,7 @@ import "./Register.css";
 import { Button } from "@radix-ui/themes";
 import { useState } from "react";
 import { enqueueSnackbar } from "notistack";
+import axios from "axios";
 
 function Register() {
   const [formData, setFormData] = useState({
@@ -21,7 +22,7 @@ function Register() {
     setFormData({ ...formData, [event.target.name]: event.target.value });
   };
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
     if (
       formData.email === "" ||
@@ -52,30 +53,39 @@ function Register() {
       return;
     }
 
-    const existingData = JSON.parse(localStorage.getItem("mediUsers")) || [];
-    const filteredData = existingData.filter(
-      (each) => each.email === formData.email
-    );
+    // const existingData = JSON.parse(localStorage.getItem("mediUsers")) || [];
+    // const filteredData = existingData.filter(
+    //   (each) => each.email === formData.email
+    // );
 
-    if (filteredData.length >= 1) {
-      // alert("User already exists. Please use another email for login");
-      enqueueSnackbar(
-        "User already exists. Please use another email for login",
-        {
-          variant: "error",
-        }
-      );
-      return;
-    }
+    // if (filteredData.length >= 1) {
+    //   // alert("User already exists. Please use another email for login");
+    //   enqueueSnackbar(
+    //     "User already exists. Please use another email for login",
+    //     {
+    //       variant: "error",
+    //     }
+    //   );
+    //   return;
+    // }
 
     //notistack
-    existingData.push(formData);
-    localStorage.setItem("mediUsers", JSON.stringify(existingData));
+    try {
+      const response = await axios.post("http://localhost:3000/auth/register", {
+        fullName: formData.fullName,
+        email: formData.email,
+        password: formData.password,
+      });
 
-    enqueueSnackbar("User Regsitered Successfully", {
-      variant: "success",
-    });
-    navigation("/");
+      if (response.status) {
+        enqueueSnackbar("User Regsitered Successfully", {
+          variant: "success",
+        });
+        navigation("/");
+      }
+    } catch (error) {
+      console.error(error.message);
+    }
   };
 
   return (

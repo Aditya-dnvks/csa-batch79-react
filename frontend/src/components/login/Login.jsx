@@ -3,6 +3,7 @@ import { useContext, useState } from "react";
 import { enqueueSnackbar } from "notistack";
 import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../auth/auth";
+import axios from "axios";
 
 const Login = () => {
   const [formData, setFormData] = useState({
@@ -18,7 +19,7 @@ const Login = () => {
 
   const { setLogin } = useContext(AuthContext);
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
 
     if (formData.email === "" || formData.password === "") {
@@ -35,28 +36,40 @@ const Login = () => {
       return;
     }
 
-    const users = JSON.parse(localStorage.getItem("mediUsers"));
+    // const users = JSON.parse(localStorage.getItem("mediUsers"));
 
-    const filteredData = users.filter(
-      (each) =>
-        each.email === formData.email && each.password === formData.password
-    );
+    // const filteredData = users.filter(
+    //   (each) =>
+    //     each.email === formData.email && each.password === formData.password
+    // );
 
-    if (filteredData.length === 0) {
-      enqueueSnackbar("User Doesn't exist. Please enter valid details", {
-        variant: "error",
-      });
-      return;
+    // if (filteredData.length === 0) {
+    //   enqueueSnackbar("User Doesn't exist. Please enter valid details", {
+    //     variant: "error",
+    //   });
+    //   return;
+    // }
+
+    // localStorage.setItem("isLogin", JSON.stringify(true));
+
+    try {
+      const response = await axios.post(
+        "http://localhost:3000/auth/login",
+        formData
+      );
+
+      console.log(response, "resp");
+
+      if (response.status == 200) {
+        setLogin(true);
+        navigate("/");
+        enqueueSnackbar("Login completed successfully", {
+          variant: "success",
+        });
+      }
+    } catch (error) {
+      console.error("Error: ", error.message);
     }
-
-    localStorage.setItem("isLogin", JSON.stringify(true));
-    setLogin(true);
-
-    navigate("/");
-
-    enqueueSnackbar("Login completed successfully", {
-      variant: "success",
-    });
   };
   return (
     <div className="flex justify-around items-center min-h-[90vh]">
