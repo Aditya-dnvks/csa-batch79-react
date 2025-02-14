@@ -9,11 +9,16 @@ function Home() {
   const [searchText, setSearch] = useState("");
   const [loader, setLoader] = useState(false);
 
+  const token = JSON.parse(localStorage.getItem("token"));
   useEffect(() => {
     const fetchMedicalItems = async () => {
       try {
         setLoader(true);
-        const response = await axios.get("http://localhost:3000/csa");
+        const response = await axios.get("http://localhost:3000/csa", {
+          headers: {
+            Authorization: `Bearer ${token}`,
+          },
+        });
         setData(response.data);
       } catch (err) {
         console.error("Error occurred", err);
@@ -24,6 +29,9 @@ function Home() {
 
     fetchMedicalItems();
   }, []);
+
+  // optimizartion - re-rendering
+  // useCallback, useMemo,Lazy component, useRef
 
   const filteredData = data.filter(
     (each) =>
@@ -60,20 +68,28 @@ function Home() {
       // };
       // const response = await fetch("http://localhost:3000/csa", options);
 
-      const response = await axios.post("http://localhost:3000/csa", {
-        title: "BABY DIAPER LARGE (KANGAROO)",
-        price: 60,
-        originalPrice: 60,
-        seller: "By KANGAROO HEALTH CARE",
-        description:
-          "Large-sized diapers for babies, offering comfort and dryness.",
-        category: "Baby Care",
-        image: "https://d1s24u4ln0wd0i.cloudfront.net/1238_2",
-        rating: {
-          rate: 4.7,
-          count: 300,
+      const response = await axios.post(
+        "http://localhost:3000/csa",
+        {
+          title: "BABY DIAPER LARGE (KANGAROO)",
+          price: 60,
+          originalPrice: 60,
+          seller: "By KANGAROO HEALTH CARE",
+          description:
+            "Large-sized diapers for babies, offering comfort and dryness.",
+          category: "Baby Care",
+          image: "https://d1s24u4ln0wd0i.cloudfront.net/1238_2",
+          rating: {
+            rate: 4.7,
+            count: 300,
+          },
         },
-      });
+        {
+          headers: {
+            Authorization: `Bearer ${token}`,
+          },
+        }
+      );
 
       // const options = {
       //   method: "PUT",

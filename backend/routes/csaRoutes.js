@@ -1,4 +1,5 @@
 const express = require("express");
+const jwt = require("jsonwebtoken");
 const {
   getData,
   getDataById,
@@ -8,16 +9,39 @@ const {
 } = require("../controllers/csaControllers");
 const router = express.Router();
 
-//middleware
+//middleware --> JWT token check
 
-router.get("/", getData); //csa
+const authentication = (req, res, next) => {
+  const authHeader = req.headers.authorization;
 
-router.get("/:id", getDataById); //csa/:id
+  if (!authHeader) {
+    return res.status(403).send("Not authorized");
+  }
 
-router.post("/", postData); //csa
+  const token = authHeader.split(" ")[1];
+
+  if (token == null) {
+    return res.status(403).send("JWT not found. Unauthorised");
+  }
+
+  const success = jwt.verify(token, process.env.JWT_SECRET_KEY);
+  if (!success) {
+    return res.status(403).send("JWT incorrect. Unauthorised");
+  } else {
+    next();
+  }
+};
+
+router.get("/", authentication, getData); //csa
+
+router.get("/:id", authentication, getDataById); //csa/:id
+
+router.post("/", authentication, postData); //csa
 
 router.put("/:id", updateData); //csa/:id
 
 router.delete("/:id", deleteData); //csa/:id
 
 module.exports = router;
+
+// Middlware, JWT,React optimization , 4-5 hooks, useRef, useCallback, useMemo, useReducer, useLayoutEffect, Custom Hooks

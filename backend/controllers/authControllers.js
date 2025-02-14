@@ -1,5 +1,10 @@
 const userModel = require("../model/usersModel");
 const bcrypt = require("bcrypt");
+const jwt = require("jsonwebtoken");
+
+//crytpo repl
+//uuid
+//random passowrd genretor
 
 const loginUser = async (req, res) => {
   const data = req.body;
@@ -16,9 +21,9 @@ const loginUser = async (req, res) => {
     return res.status(403).send("Wrong password");
   }
 
-  console.log(compare, existingUser, "heree");
+  const jwtToken = jwt.sign(data, process.env.JWT_SECRET_KEY);
 
-  res.status(200).send("Login Success"); //jwt
+  res.status(200).send({ jwtToken: jwtToken }); //jwt
 };
 
 const registerUser = async (req, res) => {

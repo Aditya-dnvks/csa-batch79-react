@@ -9,7 +9,7 @@ function Header() {
 
   const handleLogout = () => {
     setLogin(false);
-    localStorage.setItem("isLogin", JSON.stringify(false));
+    localStorage.removeItem("token");
     navigate("/login");
     enqueueSnackbar("Logout done successfully", { variant: "info" });
   };

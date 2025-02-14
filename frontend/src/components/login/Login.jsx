@@ -58,9 +58,8 @@ const Login = () => {
         formData
       );
 
-      console.log(response, "resp");
-
       if (response.status == 200) {
+        localStorage.setItem("token", JSON.stringify(response.data.jwtToken));
         setLogin(true);
         navigate("/");
         enqueueSnackbar("Login completed successfully", {
