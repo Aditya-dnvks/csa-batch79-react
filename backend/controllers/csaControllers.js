@@ -58,8 +58,8 @@ const postData = async (req, res) => {
   if (newData.title == undefined) {
     return res.status(404).send("Please provide input to post data");
   }
-  const post = await medProductModel.create(req.body);
-  res.send(post);
+  const post = await medProductModel.create(req.body); // data posted in DB
+  res.send(post); // status --> 200
 };
 
 const updateData = async (req, res) => {

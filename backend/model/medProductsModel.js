@@ -16,5 +16,5 @@ const medProductSchema = mongoose.Schema({
 });
 
 const medProductModel = mongoose.model("medProducts", medProductSchema);
-
+//database ---> collections ---> documents
 module.exports = medProductModel;
